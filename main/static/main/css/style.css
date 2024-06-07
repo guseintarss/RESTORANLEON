@@ -1,0 +1,1018 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+nav{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-radius: 15px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.nav-logo{
+    max-width: 100px;
+    margin-left: 25rem;
+}
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 25rem;
+}
+
+.bron-btn{
+    margin-left: 7px;
+    border-bottom: 1px dashed hsla(0, 0%, 100%, .5);
+    -webkit-transition: border .2s linear;
+    transition: border .2s linear;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #fff;
+    line-height: 21px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: dimgrey;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .image .back-image{
+        margin-top: auto;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .image{
+        margin-top: auto;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+.Content .info .info-res{
+    font-size: 19px;
+    position: relative;
+    z-index: 5;
+    display: block;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px 10% 50px;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 0;
+    box-shadow: 0 19px 40px -3px rgba(0, 0, 0, .62);
+    color: #000;
+    text-align: left;
+    max-width: 900px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.image_card{
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+}
+
+.banks{
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin-top: -20px;
+    padding: 90px 45px 120px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .52), rgba(0, 0, 0, .52)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .52), rgba(0, 0, 0, .52)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    box-shadow: 0 5px 19px -3px rgba(0, 0, 0, .29);
+    color: #fff;
+    text-align: left;
+}
+
+.banks .w_row{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    border: 1px none rgba(0, 0, 0, .5);
+    text-align: left;
+}
+
+.banks .w_row .banket{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.banks .w_row .banket .banket-text{
+    width: 100%;
+}
+
+.banks .w_row .detali .svadba{
+    margin-top: 5rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    width: 100rem;
+}
+
+.banks .w_row .detali{
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.banket-text{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.banks .w_row .svadba a{
+    color: antiquewhite;
+}
+
+.menu-holder{
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 1200px;
+    margin: -30px auto;
+    padding: 60px 15px 75px;
+    background-color: #1a1a1a;
+    background-image: url(//restoranel.ru/wp-content/themes/restoranel/css/../images/linen.jpg);
+    background-position: 0 0;
+    box-shadow: 0 19px 40px -3px rgba(0, 0, 0, .62);
+    text-align: left;
+}
+
+@media screen and (max-width: 767px){
+    .menu-black{
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        background-position: -46px 16%, 113% 70%;
+        background-size: 72px, 65px;
+        text-align: center;
+    }
+}
+
+
+.menu-p{
+    max-width: 45%;
+    margin-bottom: 0;
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .white-menu-h{
+    text-align: center;
+    }
+}
+
+.white-menu-h{
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+._1100-wide{
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.food-pic2 {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin-top: -227px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 991px) {
+    .button.green.ghost{
+        margin-right: 7px;
+        margin-left: 7px;
+        padding: 8px 18px 7px;
+        font-size: 12px;
+    }
+}
+
+.button.green.ghost{
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 100%, .2);
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .button.green{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+.button.green{
+    margin: 15px 15px 0;
+    padding: 10px 30px;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+    background-image: -webkit-linear-gradient(315deg, #339082, #57bb90);
+    background-image: linear-gradient(135deg, #339082, #57bb90);
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .39);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.green{
+    color: #272727;
+}
+
+.button{
+    padding: 10px 25px;
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    border-radius: 50px;
+    background-color: transparent;
+    -webkit-transition: background-color .2s linear, border-color .2s linear;
+    transition: background-color .2s linear, border-color .2s linear;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.w_button{
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button.green.ghost:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .menu-buttoms-blok{
+        margin-top: 25px;
+    }
+}
+
+.menu-buttoms-blok{
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .otzivi{
+        padding-right: 15px;
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+}
+
+.otzivi{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.otzivi.otv-text{
+    padding-right: 15px;
+    padding-bottom: 0;
+    padding-left: 15px;
+}
+@media screen and(max-width: 767px) {
+    .w-col{
+        width: 100%;
+        left: auto;
+        right: auto;
+    }
+}
+
+
+.w-col.w-col-6{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.w-col-3{
+    width: 25%;
+}
+
+@media (max-width: 991px) {
+    .testimonial-block{
+        padding: 30px 30px 35px;
+        font-size: 14px;
+    }
+}
+
+.testimonial-block{
+    margin-bottom: 30px;
+    padding: 45px 45px 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px -1px rgba(0, 0, 0, .24);
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    .testimonial-p{
+        font-size: 14px;
+    }
+}
+
+.testimonial-p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: italic;
+    text-align: left;
+
+}
+
+.testimonial-answer{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #858585;
+    font-size: 13px;
+
+}
+
+@media (max-width: 767px) {
+    .page-body{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.page-body{
+        background-color: hsla(240, 6%, 67%, .32);
+}
+
+.section.nav-section.page.menu.fix{
+    margin-top: 0;
+}
+
+.section.nav-section.page.menu{
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.section.nav-section.page{
+    margin-top: 0;
+    position: static;
+    height: 350px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.page-heading{
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 90px;
+}
+
+@media (max-width: 767px) {
+    .section.menu-holder{
+        padding: 0;
+    }
+}
+
+.section.menu-holder{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section{
+    display: block;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .section.menu-black{
+        padding-top: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.section.menu-black{
+    max-width: 1500px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .section.menu{
+        padding: 30px 0 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section.menu {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+.section.menu{
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 1200px;
+    margin: -30px auto;
+    padding: 60px 15px 75px;
+    background-color: #1a1a1a;
+    background-image: url(//restoranel.ru/wp-content/themes/restoranel/css/../images/linen.jpg);
+    background-position: 0 0;
+    box-shadow: 0 19px 40px -3px rgba(0, 0, 0, .62);
+    text-align: left;
+}
+
+._1100-wide{
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+    .menu-p{
+        max-width: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .menu-p{
+        max-width: 49%;
+    }
+}
+.menu-p{
+    max-width: 45%;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.food-pic.menu-page{
+    margin-top: -149px;
+}
+
+@media (max-width: 991px) {
+    .food-pic{
+        margin-top: -162px;
+    }
+}
+.food-pic{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin-top: -227px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section.nav-section.page {
+    position: static;
+    height: 350px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    background-repeat: repeat,no-repeat
+}
+
+.section.nav-section.page.banquet {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    background-repeat: repeat,no-repeat;
+    background-attachment: scroll,scroll
+}
+
+.section.nav-section.page.menu {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(//restoranel.ru/wp-content/themes/restoranel/css/../images/banquet%20bg%203%201200.jpg);
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    background-repeat: repeat,no-repeat
+}
+
+@media screen and(max-width: 767px){
+    .page-heading{
+        margin-top: 35px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .page-heading{
+        margin-top: 55px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+@media screen and(max-width: 767px){
+    .page-heading1{
+        margin-top: 35px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .page-heading1{
+        margin-top: 55px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+.page-heading1{
+    margin-top: 100px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.page-heading{
+    margin-top: 150px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.page-content-container{
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 1200px;
+    margin: -30px auto;
+    padding: 60px 15px 75px;
+    background-position: 0 0;
+    box-shadow: 0 19px 40px -3px rgba(0, 0, 0, .62);
+    text-align: left;
+}
+
+.page-content-container{
+    position: relative;
+    z-index: 2;
+    margin-top: -30px;
+    padding: 45px;
+    background-color: #fff;
+    box-shadow: 0 13px 30px -3px rgba(0, 0, 0, .25);
+}
+
+.w-conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.page-p {
+    max-width: 700px;
+    margin-bottom: 13px;
+}
+
+.banquet-block {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    border: 1px none rgba(0,0,0,.5);
+    text-align: left
+}
+
+.banquet-block.page {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.detali1{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    border: 1px none rgba(0, 0, 0, .5);
+    text-align: left;
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.page-a{
+    color: #858585;
+}
+
+.page-pi{
+    width: 50%;
+    text-align: center;
+}
+
+.opisanie{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 4rem;
+}
+.interer{
+    position: static;
+    height: 350px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.page-heading2{
+    margin-top: 150px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.w-conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.sliders{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.section.nav-section.page.contacts{
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/contacts%20bg.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/contacts%20bg.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.section.nav-section.page.testimonials{
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/picjumbo.com_HNCK4023-cut.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/picjumbo.com_HNCK4023-cut.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.section.nav-section.page{
+    position: static;
+    height: 350px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(//restoranel.ru/wp-content/themes/restoranel/css/../images/s1c.jpg);
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.testimonial-ghost-button{
+    display: block;
+    width: 210px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 100%, .4);
+    background-color: transparent;
+    -webkit-transition: border .2s linear;
+    transition: border .2s linear;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.w-button{
+    display: inline-block;
+    padding: 9px 15px;
+    color: #fff;
+    border: 2px solid grey;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+.w-button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.page-content-container.testimonial{
+    margin-bottom: 60px;
+}
+
+.testimonial-p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: italic;
+    text-align: left;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.footer-bottom{
+
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.contacts-icon{
+    margin-bottom: 15px;
+}
+
+.contacts-block.container.page{
+    position: relative;
+    z-index: 2;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+    background-color: #fff;
+    box-shadow: 0 13px 30px -3px rgba(0, 0, 0, .25);
+}
+
+.phone{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.phones p{
+    color: #272727;
+    text-align: center;
+}
+
+.address img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.address p{
+    color: #272727;
+    width: 300px;
+}
+.contacts-page-block{
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    gap: 10rem;
+}
+
+.contacts-page-block.li{
+    margin:  0 10px;
+}
+
+.times img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.times p{
+    color:#272727;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: 30px 30px ;
+    gap: 15px;
+}
+
+.route{
+   text-align: center;
+    font-size: 22px;
+}
